@@ -1,0 +1,518 @@
+h1{
+    font-family: 'Piedra', cursive; 
+}
+.numeri{
+    color:#0056b3;
+}
+.button2{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.button2:hover{
+    transform: scale(1.1);
+}
+
+button{
+    background-color: transparent;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.4));
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('/yoga2.mp4') black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}
+.hr{
+    width:80%;
+    height:4px;
+    background:linear-gradient(90deg,white,#0056b3,white)
+}
+button{
+    background-color: #0056b3;
+}
+body{
+    height: 2000px;
+    position: relative;
+}
+.button{
+    background-color: #0056b3;
+    border-radius: 20px !important;
+}
+.costum{
+    border-bottom: 2px solid #0056b3;
+}
+.awesome{
+    background-color:#0056b3 ;
+}
+.font{
+    color: white;
+}
+.allinea{
+    text-align: left;
+}
+.sinistra{
+    float: left;
+    width:50%;
+    height:4px;
+    background:linear-gradient(90deg,#0056b3,#0056b3,white)
+}
+.cont{
+    background-color: #343a40;
+}
+h5{
+    color:#0056b3 ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.carte{
+    background-color: #343a40;
+    color: white;
+    
+}
+.freccia{
+    color: white;
+}
+@media(max-width:992px){
+    .card-columns{
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+        -webkit-column-gap:1.25rem;
+        -moz-column-gap:1.25rem;
+        column-gap:1.25rem;
+        orphans:1;
+        
+    }
+    .card-columns .card{
+        display:inline-block;
+        width:100%;
+    }
+}
+.centrale{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    z-index: 1;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#0056b3; 
+    text-align: center;
+}
+h6{
+    text-transform: uppercase;
+    
+    color: #0056b3;
+}
+footer{
+    background-color:  #343a40;
+    color: white;
+}
+.masthead {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url('/spazio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.musthead{
+    color: white;
+}
+.heart{
+    top: 1px;
+    right: 1px;
+}
+.carte{
+    border-bottom: 1px solid #0056b3;
+}
+.altezza{
+    height: 400px;
+    margin-bottom: 20px;
+    border-top: 4px blue;
+    margin-top: 50px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: none !important;
+}
+.btn_shop{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    z-index: 999;
+    background-color: #0056b3;
+    border:3px solid green;
+    color: white;
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 0px 1px #4e8381 inset,
+    0px 0px 0px 2px #74b6b4 inset,
+    0px 4px 0px 0px #4a7c7b,
+    0px 5px 0px 0px #355655,
+    0px 5px 0px 0px rgba(0,0,0,.15);
+}
+.btn_shop:hover{
+    background-color: green;
+    color:  white;
+    border:3px solid  #0056b3;
+    border-radius: 5px;
+}
+#time{
+    color: #0056b3;
+}
+.prezzo{
+    text-decoration: line-through;
+    
+}
+.offerta{
+    font-size: 100px;
+}
+.shop{
+    border: 1px solid white;
+    color: white;
+    
+    
+}
+.shop:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.shop1:hover{
+    
+    transform: scale(1.1);
+}
+.bottons{
+    margin-left: 75%;
+}
+.skew{
+    transform: skewy(-20deg);
+}
+
+.over{
+    overflow: hidden;
+}
+
+.sottolinea{
+    text-decoration: underline;
+}
+.form_custom{
+    position: absolute;
+    right: 0px;
+    bottom: 5%;
+    
+}
+.form1{
+    position: absolute;
+    right: 30%;
+    bottom: 60%;
+    color: black;
+}
+.form1:hover{
+    position: absolute;
+    right: 30%;
+    bottom: 60%;
+    color: #0056b3;
+}
+/* contenitore base */
+.image-container {
+    width: 350px;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    -webkit-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+    -moz-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+}
+.image-container1 {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    -webkit-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+    -moz-box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 50px rgba(0,0,0,0.6);
+}
+
+/* immagine al interno del contenitore */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* contenitore con didascalia */
+.image-container .image-caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+}
+
+/* titolo */
+.image-caption h2 {
+    margin-top: 50px;
+    color: #fffefe;
+    font-weight: 300;
+}
+
+/* descrizione dell'immagine  */
+.image-caption p {
+    color: #fff;
+}
+
+
+/* animazione da basso */
+.image-container .caption-3 {
+    bottom: -500px;
+    transition: all 0.5s;
+}
+.image-container:hover .caption-3 {
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+
+
+.image-container1 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.image-container1 .image-caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+}
+
+.image-container1 .caption-3 {
+    bottom: -500px;
+    transition: all 0.5s;
+}
+.image-container1:hover .caption-3 {
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+
+.tasto1{
+    background-color:  #0056b3;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    
+    
+}
+.tasto1:hover{
+    background-color:  #0056b3;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.tasto2{
+    color: #0056b3;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.tasto2:hover{
+    color: #0056b3;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.circolare{
+    -moz-border-radius: 180px;
+    -webkit-border-radius: 180px;
+    border-radius: 180px;
+    background-attachment: fixed;
+}
+.margine{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.ridi{
+    width: 600px;
+}
+.destra{
+    margin-left: 20%;
+}
+.ridimensiona{
+    height: 400px;
+}
+.recensioni{
+    background-color: #0056b3;
+    color: white;
+}
+#oval {
+    width: 100%;
+    height: 800px;
+    background: #0060A0;
+    clip-path: circle(50% at 50% 60%)
+    
+}
+.circolare1{
+    
+    width: 300px; 
+    height: 300px;
+    border-radius:999em;    
+    -moz-border-radius:999em;  
+    -webkit-border-radius:999em; 
+    -o-border-radius: 999em;   
+    border: 4px solid #0056b3;
+    padding: 14px;
+
+    
+}
+.soddisfatto{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    font-weight: bold;
+}
+.soddisfatto:hover{
+    background-color:#0056b3 ;
+    color: white;
+}
+
+
+
+
+.soddisfatto1{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #0056b3;
+   
+    font-weight: bold;
+}
+.soddisfatto1:hover{
+    background-color: white;
+    color: black;
+}
+.computer{
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+    ),
+    url(/scrivania3.jpg);
+    background-attachment: fixed;
+    
+}
+.arrow{
+    color: white;
+}
+
+.masthead1 {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #progressContainer {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  .bianco{
+      color: white;
+  }
+
+  .s_custom{
+      background-color:#0056b3 ; 
+      color: white;
+      border-radius: 20px;
+  }
+  .s_custom:hover{
+   transform: scale(1.1);
+  }
+  .nonso{
+      height: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
